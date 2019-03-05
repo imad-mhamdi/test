@@ -87,24 +87,11 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 <iframe width="853" height="480" src="https://www.youtube.com/embed/acvoLyshWUI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### radio
+test raté
 https://www.franceinter.fr/personnes/dominique-tricaud
 
-
-const marked = require('marked');
-const renderer = new marked.Renderer();
-renderer.html = (mixedContent) => mixedContent.replace(/[^<>]+?(?=<)/g, (match) => {
-    const tokens = marked.lexer(match);
-    return marked.parser(tokens);
-});
-
-<audio>
-  <audio controls>
-   <source src="/audio/sound.mp3">
-   <source src="/audio/sound.ogg">
-   <source src="/audio/sound.wav">
-   <a href="/audio/sound.mp3">MP3</a>
-  </audio controls>
-</audio> 
+test avec lecteur qui marche
+https://raw.githubusercontent.com/myName/myRepo/master/vendor/assets/music/Tetris.mp3 
 
 
 
