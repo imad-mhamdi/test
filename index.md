@@ -77,11 +77,11 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 
 ### Small image
 
-![Octocat](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+![mini_image](https://www.letelegramme.fr/images/2016/06/22/les-avocats-des-familles-de-victimes-jean-philippe-duhamel_2957460_340x330p.jpg)
 
 ### Large image
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![Dominique_Tricaud](https://yanncastanier.files.wordpress.com/2018/02/yc_dominique_tricaud_019.jpg)
 
 ### youtube video
 <iframe width="853" height="480" src="https://www.youtube.com/embed/acvoLyshWUI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
