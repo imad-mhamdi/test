@@ -89,6 +89,14 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 ### radio
 https://www.franceinter.fr/personnes/dominique-tricaud
 
+
+const marked = require('marked');
+const renderer = new marked.Renderer();
+renderer.html = (mixedContent) => mixedContent.replace(/[^<>]+?(?=<)/g, (match) => {
+    const tokens = marked.lexer(match);
+    return marked.parser(tokens);
+});
+
 <audio>
   <audio controls>
    <source src="/audio/sound.mp3">
@@ -97,6 +105,8 @@ https://www.franceinter.fr/personnes/dominique-tricaud
    <a href="/audio/sound.mp3">MP3</a>
   </audio controls>
 </audio> 
+
+
 
 ### Definition lists can be used with HTML syntax.
 
