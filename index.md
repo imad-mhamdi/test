@@ -89,6 +89,14 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 ### radio
 https://www.franceinter.fr/personnes/dominique-tricaud
 
+<audio>
+  <audio controls>
+  <source src="/audio/sound.mp3">
+  <source src="/audio/sound.ogg">
+  <source src="/audio/sound.wav">
+  <a href="/audio/sound.mp3">MP3</a>
+</audio> 
+
 ### Definition lists can be used with HTML syntax.
 
 <dl>
