@@ -91,10 +91,11 @@ https://www.franceinter.fr/personnes/dominique-tricaud
 
 <audio>
   <audio controls>
-  <source src="/audio/sound.mp3">
-  <source src="/audio/sound.ogg">
-  <source src="/audio/sound.wav">
-  <a href="/audio/sound.mp3">MP3</a>
+   <source src="/audio/sound.mp3">
+   <source src="/audio/sound.ogg">
+   <source src="/audio/sound.wav">
+   <a href="/audio/sound.mp3">MP3</a>
+  </audio controls>
 </audio> 
 
 ### Definition lists can be used with HTML syntax.
