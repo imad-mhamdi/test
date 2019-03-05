@@ -87,7 +87,11 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 <iframe width="853" height="480" src="https://www.youtube.com/embed/acvoLyshWUI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### radio
-https://media.radiofrance-podcast.net/podcast09/14170-22.10.2016-ITEMA_21112399-0.mp3
+<audio id="yourAudio" preload='none'>
+    <source src='https://media.radiofrance-podcast.net/podcast09/14170-22.10.2016-ITEMA_21112399-0.mp3' type='audio/mp3' />
+</audio>
+<a href="#" id="audioControl">play!</a>
+
 lire plus sur https://www.franceinter.fr/personnes/dominique-tricaud
 
 
